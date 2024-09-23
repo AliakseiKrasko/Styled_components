@@ -13,11 +13,11 @@ function App() {
             <Box>
                 <StyledImage src={rectangleImg} alt="Rectangle Image"/>
                 <TextStyledTitle>Headline</TextStyledTitle>
-                <TextStyledParagraph>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in
+                <TextStyledParagraph fontSize='12px' color='#ABB3B'>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in
                     venen.</TextStyledParagraph>
                 <StyledBtnContainer>
-                    <StyledBtn color='#4E71FE'>See more</StyledBtn>
-                    <StyledBtn color='#4E71FE'>Save</StyledBtn>
+                    <StyledBtn btnType='primary'>See more</StyledBtn>
+                    <StyledBtn btnType='outlined' active>Save</StyledBtn>
                 </StyledBtnContainer>
             </Box>
         </div>
